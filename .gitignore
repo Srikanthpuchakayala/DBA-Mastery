@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Environment variables
+.env
+.env.*
+
+# AWS
+.aws/
+
+# SSH Keys
+*.pem
+*.ppk
+id_rsa
+id_rsa.pub
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Java
+*.class
+
+# Temporary files
+*.tmp
