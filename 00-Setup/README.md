@@ -1,4 +1,35 @@
-# Phase 0 – Environment Setup
+# Table of Contents
+
+- Environment
+- Step 1 – Verify Operating System
+- Step 2 – Verify CPU Architecture
+- Step 3 – Verify Homebrew
+- Step 4 – Verify Git
+- Step 5 – Verify VS Code CLI
+- Step 6 – Verify AWS CLI
+- Step 7 – Verify MySQL
+- Step 8 – Verify Docker
+- Step 9 – Verify Python
+- Step 10 – Verify Java
+- Step 11 – Create Project Workspace
+- Step 12 – Create Project Structure
+- Step 13 – Documentation Files
+- Step 14 – README Files
+- Step 15 – Git Configuration
+- Step 16 – GitHub Repository
+- Step 17 – Connect Local Repository
+- Step 18 – First Commit
+- Step 19 – Push to GitHub
+- AWS CLI Review
+- Lessons Learned
+- Next Steps
+
+
+
+
+
+# Phase 0 – 
+Environment Setup
 
 ## Objective
 
@@ -306,29 +337,43 @@ Expected Output
 ```bash
 mkdir -p \
 00-Setup \
-01-Linux \
-02-SQL \
-03-MySQL \
-04-PostgreSQL \
-05-SQL-Server \
-06-Oracle \
-07-AWS \
-08-RDS-Aurora \
-09-Performance-Tuning \
-10-Backup-Recovery \
-11-Replication-HA \
-12-Monitoring \
-13-Security \
-14-Automation \
-15-Migrations \
-16-Production-Scenarios \
-17-Projects \
-18-Interview-Preparation \
-19-Certifications \
+01-Linux \ 
+02-AWS \
+03-SQL \
+04-MySQL \
+05-PostgreSQL \ 
+06-SQL-Server \ 
+07-Oracle \
+08-Amazon-RDS \
+09-Amazon-Aurora \ 
+10-Performance-Tuning \
+11-Backup-Recovery \ 
+12-High-Availability-Replication \
+13-Monitoring \
+14-Security \
+15-Automation \
+16-Migrations \
+17-Production-Scenarios \
+18-Projects \
+19-Interview-Preparation \
+20-Certifications \
 Assets \
+Backups \
+Downloads \
+GitHub \
+Labs \
+Logs \
 Notes \
+Projects \
+Resources \
+Screenshots \
 Scripts \
-Templates
+Templates \
+README.md \
+ROADMAP.md \
+CHANGELOG.md \
+LEARNING-JOURNAL.md\
+LICENSE
 ```
 
 ### Purpose
@@ -539,3 +584,63 @@ AWS CLI is still configured with credentials from the old AWS account.
 - Upgrade Java to Java 21 LTS.
 - Configure AWS Budget Alerts.
 - Begin Phase 1 – Linux Administration.
+
+
+---
+
+# Phase 0 Completion Summary
+
+## Objectives Achieved
+
+- ✅ macOS development environment verified
+- ✅ Homebrew installed
+- ✅ Git configured
+- ✅ VS Code configured
+- ✅ AWS CLI installed and configured
+- ✅ Docker verified
+- ✅ MySQL installed
+- ✅ Python verified
+- ✅ Java verified
+- ✅ GitHub repository created
+- ✅ Repository structure created
+- ✅ AWS IAM User configured
+- ✅ AWS CLI authenticated
+- ✅ LocalStack configuration issue resolved
+- ✅ Environment ready for hands-on DBA learning
+
+---
+
+## Deliverables
+
+- Professional GitHub Repository
+- Local Development Environment
+- AWS Account Ready
+- AWS CLI Ready
+- Documentation Repository
+
+---
+
+## Status
+
+**Phase 0 Completed Successfully**
+
+Ready to begin:
+
+➡️ Phase 1 – AWS Foundations    
+
+# Next Phase
+
+Phase 1 – AWS Foundations
+
+Upcoming Topics
+
+- AWS Global Infrastructure
+- AWS Regions
+- Availability Zones
+- Edge Locations
+- IAM Deep Dive
+- VPC
+- Security Groups
+- EC2
+- EBS
+- CloudWatch
