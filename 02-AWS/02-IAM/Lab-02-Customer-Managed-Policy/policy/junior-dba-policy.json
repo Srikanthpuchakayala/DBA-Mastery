@@ -1,0 +1,31 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "ReadRDS",
+      "Effect": "Allow",
+      "Action": [
+        "rds:Describe*",
+        "rds:ListTagsForResource"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Sid": "CreateSnapshots",
+      "Effect": "Allow",
+      "Action": [
+        "rds:CreateDBSnapshot"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Sid": "DenyDelete",
+      "Effect": "Deny",
+      "Action": [
+        "rds:DeleteDBInstance",
+        "rds:DeleteDBSnapshot"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
